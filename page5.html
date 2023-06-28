@@ -11,9 +11,11 @@
         flex-basis: 10%; 
         height: 30px; 
         width: 50px;
+        justify-content: center;
+        text-align: center;
 
-     background-color: inherit;         
-     border-color:palevioletred; }
+     background-color: #2c5530;         
+     border-color: inherit; }
 </style>
 
     
@@ -29,10 +31,14 @@
     .myDiv{
         width: auto;
         height: auto;
-        background-color: lightpink;
+        background-color: #883677;
 
+        border-width: 2px;
+        border-radius: 10px;
+        border-style:solid;
+        border-color: #201e1f;
+        margin: 2px;
 
-        margin;
         position:inherit;
         text-align: center;
         justify-content:center;
@@ -41,14 +47,13 @@
 
 <style>
     .layout{
-        background-color: wheat;
+        background-color: #2c5530;
         height: max-content;
         width:  400px;
         border: 40px;
         border-radius: 20px;
         align-items: center;
         justify-content:center;
-        position:sticky;
         text-align: center;
         flex-wrap: wrap;
         display:flex;
@@ -57,23 +62,23 @@
 
 
 
-<body bgcolor="#3EB489">
+<body bgcolor="#201e1f">
     
     <div class = "layout">
-        <h1><strong>This is my first div's header</strong></h1>
+        <h1 style = "color: #f3ffb6;"><strong>This is my first div's header</strong></h1>
         <div class = "myDiv">
             <br>
-            <h2><strong>This is my second div's header</strong></h2>
-            <h2>This is my second div's text</h2>
+            <h2 style = "color: #f3ffb6;"><strong>This is my second div's header</strong></h2>
+            <h2 style = "color: #f3ffb6;">This is my second div's text</h2>
             <a href = "main.html">
                 <button>
-                    return
+                    <i style = "color:#f3ffb6">return</>
                 </button>
             </a>
             <br>
             <br>
         </div>
-        <h1>This is my second div's text</h1>
+        <h1 style = "color: #f3ffb6;">This is my second div's text</h1>
         <br>
     </div>
 </body>
